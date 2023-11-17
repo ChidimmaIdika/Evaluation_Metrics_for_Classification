@@ -2,6 +2,10 @@
 
 ![image](https://github.com/ChidimmaIdika/Evaluation_Metrics_for_Classification/assets/137975543/8630faaf-e442-4f51-bc37-cfd405a3ffcf)
 
+---
+*This project explores **Evaluation Metrics** to gauge the quality and performance of a previously built churn prediction model*
+
+---
 
 # Table of Contents
 - [Introduction](#introduction)
@@ -16,9 +20,8 @@
 
 ---
 ## Introduction
-*In a previous project [Churn Prediction Project](https://github.com/ChidimmaIdika/Churn-Prediction-Project-using-Machine-Learning.git), I built a predictive model for customer churn using a dataset from Telco. This project aims to assess the quality of the model In this post, I will delve into various evaluation metrics to gauge the performance of the churn prediction model.*
+In a previous project [Churn Prediction Project](https://github.com/ChidimmaIdika/Churn-Prediction-Project-using-Machine-Learning.git), I built a predictive model for customer churn using a dataset from Telco. This project aims to assess the quality of a previously built model. In this post, I will delve into various evaluation metrics to gauge the performance of the churn prediction model.
 
----
 ## Session Overview
 **Dataset:** Telco Customer Churn Dataset    
 **Metric:** A function that compares predictions with actual values, providing a single numerical indicator of prediction quality.    
@@ -193,7 +196,12 @@ for C in tqdm([0.001, 0.01, 0.1, 0.5, 1, 5, 10]):
 - **K-Fold CV:** Provides a more reliable estimate of performance.
 
 ---
-*View notebook [Here]()*
-*In further projects, these insights can be used to fine-tune models and improve its predictive capabilities. Stay tuned for more updates on churn prediction!*
+*View notebook **[Here](https://github.com/ChidimmaIdika/Evaluation_Metrics_for_Classification/blob/Chidimma/Evaluation%20Metrics%20for%20Classification.ipynb)***     
+
+
+*In further projects, these insights can be used to fine-tune models and improve its predictive capabilities.*    
+
+
+*Stay tuned for more updates on churn prediction!*
 
 ---
